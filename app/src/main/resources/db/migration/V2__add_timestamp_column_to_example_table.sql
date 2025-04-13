@@ -1,0 +1,3 @@
+
+ALTER TABLE example
+ADD COLUMN timestamp TIMESTAMPTZ NOT NULL DEFAULT now();
